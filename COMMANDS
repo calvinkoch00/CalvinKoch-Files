@@ -5,3 +5,10 @@
     ng deploy    
 # and the push to staging branch
 
+# To override main branch do the following commands:
+
+# overwrite main with contents of staging branch (staging > master)
+git checkout staging    # source name
+git merge -s ours main  # target name
+git checkout main       # target name
+git merge staging       # source name
