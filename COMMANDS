@@ -1,2 +1,5 @@
-#Deploy to Staging Site calvinkoch00.github.io
-ng deploy --base-href=/CalvinKoch-Files/
+#When Saving to main branch the SIte is automatically deployed to firebase/calvinkoch.ch
+
+#To only deploy to Staging Site: calvinkoch00.github.io use the following command within the staging branch
+    ng deploy --base-href=/CalvinKoch-Files/
+
