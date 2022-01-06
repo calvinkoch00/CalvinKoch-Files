@@ -2,7 +2,7 @@
 
 # To only deploy to Staging Site: calvinkoch00.github.io use the following command 
 # within the staging branch.
-    ng deploy    
+    ng deploy --base-href=/CalvinKoch-Files/    
 # and the push to staging branch
 
 # To override main branch do the following commands:
