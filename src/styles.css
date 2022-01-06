@@ -27,19 +27,24 @@ h2{
     justify-content: center;
 }
 
-@media (max-width: 480px) {
+
+
+
+@media (min-width: 1400px) {
     html{
-        font-size: 50%;
+        font-size: 100%;
     }
-}
-@media (max-width: 768px) {
-    
 }
 @media (max-width: 1024px) {
     
 }
-@media (min-width: 1400px) {
+@media (max-width: 768px) {
     html{
-        font-size: 100%;
+        font-size: 50%;
+    }
+}
+@media (max-width: 480px) {
+    html{
+        font-size: 40%;
     }
 }
