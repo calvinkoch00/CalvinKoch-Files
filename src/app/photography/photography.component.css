@@ -1,0 +1,12 @@
+.landing{
+    height: 100vh;
+    background-image: url(https://github.com/calvinkoch00/CalvinKoch-Files/blob/7c72776438795aeeac9fa49259c5d4c4c5b9e51e/src/assets/img/herobg.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+}
+.landing-grey{
+    height: 100vh;
+    background-image: url(https://github.com/calvinkoch00/CalvinKoch-Files/blob/7c72776438795aeeac9fa49259c5d4c4c5b9e51e/src/assets/img/herobg-bw.jpg?raw=true);
+    background-size: cover;
+    background-position: center;   
+}
