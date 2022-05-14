@@ -1,0 +1,34 @@
+.navbar-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar-start{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar-end{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+}
+.navbar-item{
+    padding: 0 15px;
+    margin-left: 10px;
+}
+.navbar-logo{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fck_logo.svg?alt=media&token=11ca682b-7173-42df-8d7f-14f53c4c63be);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100px;
+    margin: 10px 0 10px 0;
+}
+.first{
+    margin-left: 0 !important; 
+}

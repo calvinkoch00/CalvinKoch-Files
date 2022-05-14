@@ -1,0 +1,12 @@
+.landing{
+    height: 100vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fherobg.jpg?alt=media&token=89bb7c8b-754e-44c1-969b-2b3fb98a638e);
+    background-size: cover;
+    background-position: center;
+}
+.landing-grey{
+    height: 100vh;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fherobg-bw.jpg?alt=media&token=c5d34921-a75f-4b43-816b-8c714a2a7eb0);
+    background-size: cover;
+    background-position: center;   
+}
