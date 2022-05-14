@@ -17,7 +17,7 @@
     },
     {
       "target": "stage",
-      "public": "docs",
+      "public": "stage",
       "ignore": [
         "firebase.json",
         "**/.*",
