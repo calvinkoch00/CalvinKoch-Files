@@ -24,7 +24,7 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: MaintananceComponent
+    component: HomeComponent
   }
 ];
 
