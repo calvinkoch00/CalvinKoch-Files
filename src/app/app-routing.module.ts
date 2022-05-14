@@ -11,7 +11,7 @@ import { ContactComponent } from './photography/sites/contact/contact.component'
 const routes: Routes = [
   {
     path: '',
-    component: PhotographyComponent,
+    component: ConstructionComponent,
   },
   {
     path: 'construction',
