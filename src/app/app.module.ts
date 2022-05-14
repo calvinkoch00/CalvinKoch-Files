@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { MaintananceComponent } from './maintanance/maintanance.component';
 
 @NgModule({
-  declarations: [					
+  declarations: [						
     AppComponent,
-      MaintananceComponent
+      MaintananceComponent,
    ],
   imports: [
     BrowserModule,
