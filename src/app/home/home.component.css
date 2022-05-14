@@ -1,5 +1,5 @@
 .navbar-menu{
-    width: 100vw;
+    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -19,8 +19,9 @@
     padding: 5px;
 }
 .navbar-logo{
-    background-color: white;
-    width: 50px;
+    background-image: url(https://raw.githubusercontent.com/calvinkoch00/CalvinKoch-Files/3d622ca2f9ebe7e4584da1fa967dcb4281dcbedd/src/assets/img/ck_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 50px;
-    
+    width: 100px;
 }
