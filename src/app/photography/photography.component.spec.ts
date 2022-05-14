@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PhotographyComponent } from './photography.component';
+import { PhotographyNavComponent} from '../photography-nav/photography-nav.component';
 
 describe('PhotographyComponent', () => {
   let component: PhotographyComponent;

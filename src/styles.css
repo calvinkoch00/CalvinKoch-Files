@@ -21,6 +21,14 @@ h2{
     font-size: 2.5rem;
 }
 
+a, a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: darkgray;
+}
+
 .flexbox-center{
     display: flex;
     align-items: center;

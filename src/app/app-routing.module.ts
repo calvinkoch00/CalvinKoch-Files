@@ -4,6 +4,9 @@ import { ConstructionComponent } from './construction/construction.component';
 import { HomeComponent } from './home/home.component';
 import { MaintananceComponent } from './maintanance/maintanance.component';
 import { PhotographyComponent } from './photography/photography.component';
+import { AboutmeComponent } from './photography/sites/aboutme/aboutme.component';
+import { WorkComponent } from './photography/sites/work/work.component';
+import { ContactComponent } from './photography/sites/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -25,6 +28,18 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'aboutme',
+    component: AboutmeComponent
+  },
+  {
+    path: 'work',
+    component: WorkComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 
