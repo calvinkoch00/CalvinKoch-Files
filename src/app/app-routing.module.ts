@@ -11,35 +11,35 @@ import { ContactComponent } from './photography/sites/contact/contact.component'
 const routes: Routes = [
   {
     path: '',
-    component: ConstructionComponent
+    component: PhotographyComponent,
   },
   {
     path: 'construction',
-    component: ConstructionComponent
+    component: ConstructionComponent,
   },
   {
     path: 'photography',
-    component: PhotographyComponent
+    component: PhotographyComponent,
   },
   {
     path: 'maintanance',
-    component: MaintananceComponent
+    component: MaintananceComponent,
   },
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: 'aboutme',
-    component: AboutmeComponent
+    component: AboutmeComponent,
   },
   {
     path: 'work',
-    component: WorkComponent
+    component: WorkComponent,
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
   }
 ];
 
