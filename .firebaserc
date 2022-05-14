@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "portfolio-63df7"
+  },
+  "targets": {
+    "portfolio-63df7": {
+      "hosting": {
+        "public": [
+          "portfolio-63df7"
+        ],
+        "stage": [
+          "portfolio-63df7-staged"
+        ]
+      }
+    }
   }
 }
