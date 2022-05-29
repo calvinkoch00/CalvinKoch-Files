@@ -1,0 +1,61 @@
+.footer-box{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.footer-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.footer-center{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.footer-logo{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fck_logo.svg?alt=media&token=11ca682b-7173-42df-8d7f-14f53c4c63be);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+}
+.footer-name{
+    color: var(--grey);
+}
+.footer-email{
+    color: var(--grey);
+}
+.footer-copyright{
+    color: var(--grey);
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer-nav a{
+    margin-top: 5px;
+}
+.footer-nav .first{
+    margin-top: 0px !important;
+}
+h4{
+    margin: 0;
+}
