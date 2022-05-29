@@ -12,6 +12,10 @@ import { PhotographyNavComponent } from './photography-nav/photography-nav.compo
 import { AboutmeComponent } from './photography/sites/aboutme/aboutme.component';
 import { WorkComponent } from './photography/sites/work/work.component';
 import { ContactComponent } from './photography/sites/contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { PhotographyAboutComponent } from './photography-about/photography-about.component';
+import { PhotographyFilterComponent } from './photography-filter/photography-filter.component';
+import { PhotographyGalleryComponent } from './photography-gallery/photography-gallery.component';
 
 @NgModule({
   declarations: [						
@@ -25,6 +29,10 @@ import { ContactComponent } from './photography/sites/contact/contact.component'
       AboutmeComponent,
       WorkComponent,
       ContactComponent,
+      FooterComponent,
+      PhotographyAboutComponent,
+      PhotographyFilterComponent,
+      PhotographyGalleryComponent,
    ],
   imports: [
     BrowserModule,

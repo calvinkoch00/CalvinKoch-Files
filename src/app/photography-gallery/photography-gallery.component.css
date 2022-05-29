@@ -1,0 +1,14 @@
+.gallery-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-card{
+    width: calc(50% - 10px);
+    height: 300px;
+    background-color: var(--grey);
+    margin-top: 20px;
+}
+.gallery-flexbox .first{
+    margin-top: 0px !important;
+}

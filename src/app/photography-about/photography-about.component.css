@@ -1,0 +1,58 @@
+.about{
+    background-color: var(--grey);
+    margin-top: 20px;
+}
+.about-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0 80px 0;
+}
+.about-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: end;
+}
+.about-right h1, h2, h3, h4, h5, h6, a{
+    max-width: 300px;
+    hyphens: auto; 
+	text-align: justify;
+    text-align-last: right;
+    color: var(--black);
+    margin: 0;
+}
+
+.about-textwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logo-big{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fck_logo.svg?alt=media&token=11ca682b-7173-42df-8d7f-14f53c4c63be);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+}
+
+.spacer-1{
+    height: 5px;
+}
+.spacer-2{
+    height: 40px;
+}
+.spacer-3{
+    height: 3px;
+}
