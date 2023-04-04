@@ -2,24 +2,26 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ main ]
-    
-  #Run workflow manually
+    branches: [main]
   workflow_dispatch:
-  
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm install
-      - name: Build dependencies
+        run: npm ci
+      - name: Fix lockfile
+        run: npm install --ignore-scripts
+      - name: Build
         run: npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
       - name: Archive production artifact
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v2
         with:
           name: docs
           path: docs
@@ -29,9 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
       - name: Download artifact
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v2
         with:
           name: docs
           path: docs
@@ -41,6 +43,3 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-    
-    
-      
