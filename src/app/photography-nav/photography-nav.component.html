@@ -1,11 +1,13 @@
-<div class="max-flexbox-center">
-    <div class="max-width">
+<div class="fixed-container" #fixedContainer>
+    <div class="max-width-nav">
         <div class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item, first" routerLink="/photography">
-                    <div class="navbar-logo">
+                <a class="navbar-item first" routerLink="/photography">
+                    <div class="navbar-logo svg-grey">
+                        <app-ck_logo_svg></app-ck_logo_svg>
                     </div>
                 </a>
+                <a class="navbar-item" routerLink="/photography"><h2>Calvin Koch Photography</h2></a>
             </div>    
             <div class="navbar-end">
                 <a class="navbar-item first" routerLink="/photography">Home</a>

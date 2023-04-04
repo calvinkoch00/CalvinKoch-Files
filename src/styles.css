@@ -74,8 +74,17 @@ a:hover{
     padding: 0 50px 0 50px;
 }
 
+.svg-black{
+    fill: var(--black);
+}
 
+.svg-white{
+    fill: var(--white);
+}
 
+.svg-grey{
+    fill: var(--grey);
+}
 
 @media (min-width: 1400px) {
     html{

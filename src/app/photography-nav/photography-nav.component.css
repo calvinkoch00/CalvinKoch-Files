@@ -1,35 +1,73 @@
-.navbar-menu{
+.fixed-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+  
+  .max-width-nav {
+    max-width: 1300px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+.navbar-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-}
+    width: 100%;
+  }
 .navbar-start{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: 50px;
 }
 .navbar-end{
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-right: 50px;
 }
 .navbar-item{
     padding: 0 15px;
     margin-left: 10px;
 }
 .navbar-logo{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fck_logo.svg?alt=media&token=11ca682b-7173-42df-8d7f-14f53c4c63be);
     background-repeat: no-repeat;
     background-position: center;
-    height: 50px;
-    width: 100px;
+    width: 60px;
     margin: 10px 0 10px 0;
-    
+    transition: all 0.3s ease-in-out;
 }
+
+h2 {
+    transition: all 0.3s ease-in-out;
+    font-size: 2em;
+  }
+
 .first{
-    margin-left: 0 !important; 
+    margin-left: 0 !important;
+    padding-left: 0 !important; 
 }
+
+.navbar-item:hover .svg-grey{
+    fill: var(--white);
+}
+
+.scrolled {
+    background-color: var(--black);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .scrolled .navbar-logo {
+    width: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .scrolled h2 {
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+  }

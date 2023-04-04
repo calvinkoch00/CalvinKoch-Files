@@ -16,6 +16,9 @@ import { FooterComponent } from './footer/footer.component';
 import { PhotographyAboutComponent } from './photography-about/photography-about.component';
 import { PhotographyFilterComponent } from './photography-filter/photography-filter.component';
 import { PhotographyGalleryComponent } from './photography-gallery/photography-gallery.component';
+import { Ck_logo_svgComponent } from 'src/assets/ck_logo_svg/ck_logo_svg.component';
+
+
 
 @NgModule({
   declarations: [						
@@ -33,6 +36,7 @@ import { PhotographyGalleryComponent } from './photography-gallery/photography-g
       PhotographyAboutComponent,
       PhotographyFilterComponent,
       PhotographyGalleryComponent,
+      Ck_logo_svgComponent,
    ],
   imports: [
     BrowserModule,
