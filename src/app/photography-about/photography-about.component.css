@@ -25,7 +25,7 @@
     text-align: end;
 }
 .about-right h1, h2, h3, h4, h5, h6, a{
-    max-width: 300px;
+    max-width: 600px;
     hyphens: auto; 
 	text-align: justify;
     text-align-last: right;
@@ -39,14 +39,12 @@
     align-items: flex-end;
 }
 
-.logo-big{
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-63df7.appspot.com/o/assets%2Fimg%2Fck_logo.svg?alt=media&token=11ca682b-7173-42df-8d7f-14f53c4c63be);
+.logo{
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
     width: 300px;
 }
-
 .spacer-1{
     height: 5px;
 }
