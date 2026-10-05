@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "calvinkoch:build:production"
+              "buildTarget": "calvinkoch:build:production"
             },
             "development": {
-              "browserTarget": "calvinkoch:build:development"
+              "buildTarget": "calvinkoch:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "calvinkoch:build"
+            "buildTarget": "calvinkoch:build"
           }
         },
         "test": {
