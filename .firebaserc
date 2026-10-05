@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "portfolio-63df7"
+    "default": "personal-website-f6b57"
   },
   "targets": {
-    "portfolio-63df7": {
+    "personal-website-f6b57": {
       "hosting": {
         "public": [
-          "portfolio-63df7"
+          "personal-website-f6b57"
         ],
         "stage": [
-          "portfolio-63df7-staged"
+          "personal-website-f6b57-staged"
         ]
       }
     }

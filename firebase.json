@@ -1,6 +1,6 @@
 {
   "hosting": [
-      {
+    {
       "target": "public",
       "public": "docs",
       "ignore": [
@@ -8,9 +8,9 @@
         "**/.*",
         "**/node_modules/**"
       ],
-      "rewrites":[
+      "rewrites": [
         {
-          "source":"**",
+          "source": "**",
           "destination": "/index.html"
         }
       ]
@@ -23,9 +23,9 @@
         "**/.*",
         "**/node_modules/**"
       ],
-      "rewrites":[
+      "rewrites": [
         {
-          "source":"**",
+          "source": "**",
           "destination": "/index.html"
         }
       ]
