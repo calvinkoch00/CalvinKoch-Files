@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "build:gh-pages": "ng build --base-href=/CalvinKoch-Files/",
     "test": "ng test"
   },
   "private": true,
